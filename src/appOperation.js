@@ -14,4 +14,8 @@ function divide(num1, num2) {
   return num1 / num2;
 }
 
-module.exports = { multiply, add, substract, divide };
+function print(str) {
+  return "Hello world";
+}
+
+module.exports = { multiply, add, substract, divide, print };
