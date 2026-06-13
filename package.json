@@ -1,8 +1,15 @@
 {
-  "name": "unit-test-and-code-coverage",
-  "version": "1.1.0",
+  "name": "@parley98/unit-test-and-code-coverage",
+  "version": "1.1.1",
   "description": "Demo application for Github Action Workshop",
-  "main": "index.js",
+  "main": "/src/appOperation.js",
+  "files": [
+    "/src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parley98/unit-test-and-code-coverage"
+  },
   "scripts": {
     "test": "jest --coverage"
   },
