@@ -1,7 +1,7 @@
 {
   "name": "unit-test-and-code-coverage",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Demo application for Github Action Workshop",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
